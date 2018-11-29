@@ -3,15 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
+    "axios-mock-adapter": "^1.15.0",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.7.0",
     "g": "^2.0.1",
+    "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-redux": "^5.1.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1",
+    "react-toastify": "^4.4.3",
     "redux": "^4.0.1",
+    "redux-mock-store": "^1.5.3",
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
@@ -19,7 +24,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test -u",
     "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "pr": "npm install;react-scripts start"
   },
   "eslintConfig": {
     "extends": "react-app"
