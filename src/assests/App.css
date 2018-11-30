@@ -1,0 +1,31 @@
+.nav{
+  background-color: #4573ebe6;
+}
+.section{
+  height: 750px;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+}
+.section-inner{
+  background: #0000007a;
+  height: 100%;
+  color: white;
+}
+.section-inner .jumbotron{
+  background: transparent;
+}
+.section-inner h1{
+ font-size: 4.1875rem;
+ text-transform: uppercase;
+}
+.section-inner .intro-body{
+  font-size: 16px;
+  margin-top:50px;
+}
+.clear{
+  background: transparent !important;
+}
