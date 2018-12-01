@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { bindActionCreators } from 'redux';
-import registerUser from '../../actions/userActions';
+import { registerUser } from '../../actions/userActions';
 import NavBar from '../landingPage/NavBar';
 
 export class RegisterUserForm extends Component {

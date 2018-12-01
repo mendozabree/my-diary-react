@@ -40,3 +40,7 @@ margin-top: 20px;
   border-radius: 5px;
   padding: 30px;
 }
+.spinner {
+  top: 110% !important;
+  left: 45% !important;
+}
